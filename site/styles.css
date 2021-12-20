@@ -1,63 +1,56 @@
 * {
-  box-sizing: border-box;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+	box-sizing: border-box;
 }
 
 .heading {
-  text-align: center;
-  padding-top: 20px;
-  margin-bottom: 40px;
-  font-size: 175%;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 40px;
 }
 
 .menu-content {
-  background-color: grey;
-  margin-top: 30px;
-  font-size: 100%;
-  padding-left: 2%;
+	background-color: grey;
+	margin-top: 30px;
 }
 
-.menu1-heading {
-  background-color: pink;
-  border: 2px solid black;
-  text-align: center;
-  float: right;
-  position: relative;
-  width: 30%;
-  font-size: 125%;
+.menu-heading1 {
+	background-color: pink;
+	border: 2px solid black;
+	text-align: center;
+	float: right;
+	position: relative;
+	width: 30%;
 }
 
-.menu2-heading {
-  background-color: #A52A2A;
-  border: 2px solid black;
-  text-align: center;
-  float: right;
-  position: relative;
-  width: 30%;
-  color: white;
-  font-size: 125%;
+.menu-heading2 {
+	background-color: #A52A2A;
+	border: 2px solid black;
+	text-align: center;
+	float: right;
+	position: relative;
+	width: 30%;
+	color: white;
 }
 
-.menu3-heading {
-  background-color: #F0E68C;
-  border: 2px solid black;
-  text-align: center;
-  float: right;
-  position: relative;
-  width: 30%;
-  font-size: 125%;
+.menu-heading3 {
+	background-color: #F0E68C;
+	border: 2px solid black;
+	text-align: center;
+	float: right;
+	position: relative;
+	width: 30%;
+}
+
+.box-color {
+	background-color: grey;
+	padding-left: 10px; 
 }
 
 /********** Desktop version **********/
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .box-position-lg {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 3px solid black;
-    background-color: grey;
-  }
-
-  .box-position-lg {
-    margin-right: 1.5%;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -69,13 +62,13 @@
     width: 25%;
   }
   .col-lg-4 {
-    width: 32.33%;
+    width: 33.33%;
   }
   .col-lg-5 {
     width: 41.66%;
   }
   .col-lg-6 {
-    width: 49%;
+    width: 50%;
   }
   .col-lg-7 {
     width: 58.33%;
@@ -93,20 +86,15 @@
     width: 91.66%;
   }
   .col-lg-12 {
-    width: 99%;
+    width: 100%;
   }
 }
 
 /********** Tablet solution **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .box-position-md {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     border: 3px solid black;
-    background-color: grey;
-    margin-bottom: 10px;
-  }
-  .box-position-md {
-    margin-right: 2%;
   }
   .col-md-1 {
     width: 8.33%;
@@ -118,13 +106,13 @@
     width: 25%;
   }
   .col-md-4 {
-    width: 32.33%;
+    width: 33.33%;
   }
   .col-md-5 {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 49%;
+    width: 50%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -147,12 +135,10 @@
 }
 
 /********** Mobile devices solution **********/
-@media (max-width: 767.9px) {
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
     border: 3px solid black;
-    background-color: grey;
-    margin-bottom: 10px;
   }
   .col-sm-1 {
     width: 8.33%;
